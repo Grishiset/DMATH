@@ -1,0 +1,49 @@
+{
+  "operations": "minmax",
+  "memberships": {
+    "impact": {
+      "Low": [
+        "sigmoid",
+        -0.12,
+        25
+      ],
+      "Medium": [
+        "gauss",
+        50,
+        18
+      ],
+      "High": [
+        "sigmoid",
+        0.12,
+        75
+      ]
+    },
+    "urgency": {
+      "Low": [
+        "sigmoid",
+        -1.2,
+        3
+      ],
+      "Medium": [
+        "bell",
+        2,
+        2,
+        5
+      ],
+      "High": [
+        "sigmoid",
+        1.2,
+        7
+      ]
+    }
+  },
+  "conclusions": [
+    0,
+    25,
+    30,
+    50,
+    57,
+    82,
+    100
+  ]
+}
